@@ -1,4 +1,4 @@
-# ROI-Win_rate-Risk_ratio_calculator
+# Calculator for ROI (Return on Investment), Win Rate, and Risk Ratio
 
 Coding in Python and using Google Colab, I developed an interactive financial calculator for businesses and people alike, that helps users calculate three key financial metrics: **ROI (Return on Investment)**, **win rate**, and **risk ratio**. 
 
@@ -8,7 +8,7 @@ The program asks the user to choose one of these three options and then guides t
     # Prompting the user to choose what types of calculation he wants and converting all inputs into lower strings
     user_input = input("What do you want to calculate: ROI, win rate, risk ratio").lower()
     
-    # implementing the first if condition, depending on the user's choice
+    # Implementing the first if condition, depending on the user's choice
     if user_input == "roi":
         prof_val = float(input("Enter profit value: "))
         cost = float(input("Enter investment cost: "))
