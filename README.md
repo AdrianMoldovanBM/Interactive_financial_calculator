@@ -46,5 +46,5 @@ The program asks the user to choose one of these three options and then guides t
     elif user_input != "roi""win rate""risk ratio":
         return "Please enter a valid choice"
 
-# Implementation:
+# Execution
     calculate()
