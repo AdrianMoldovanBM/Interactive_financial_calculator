@@ -4,7 +4,7 @@ Coding in Python and using Google Colab, I developed an interactive financial ca
 
 The program asks the user to choose one of these three options and then guides them through inputting the necessary values to perform the selected calculation.
 
-def calculate():
+    def calculate():
     # Prompting the user to choose what types of calculation he wants and converting all inputs into lower strings
     user_input = input("What do you want to calculate: ROI, win rate, risk ratio").lower()
     
@@ -46,4 +46,4 @@ def calculate():
         return "Please enter a valid choice"
 
 # Implementation:
-calculate()
+    calculate()
